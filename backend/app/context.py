@@ -2,7 +2,7 @@ from llama_index import ServiceContext
 from llama_index.llms import AzureOpenAI
 from llama_index.embeddings import AzureOpenAIEmbedding
 
-# TODO:: Replace with provided api key
+# TODO: 1 - Replace with provided api key
 api_key = "TO_BE_REPLACED"
 azure_endpoint = "https://southindia.api.cognitive.microsoft.com/"
 api_version = "2023-07-01-preview"
