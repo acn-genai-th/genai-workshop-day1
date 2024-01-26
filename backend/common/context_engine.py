@@ -1,7 +1,7 @@
 from llama_index import ServiceContext
 
-from common.context import create_base_context
-from common.constants import CHUNK_SIZE, CHUNK_OVERLAP
+from context import create_base_context
+from constants import CHUNK_SIZE, CHUNK_OVERLAP
 
 
 def create_service_context():
