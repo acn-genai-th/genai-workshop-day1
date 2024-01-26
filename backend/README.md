@@ -15,7 +15,7 @@ By default, the bootstrapped repository use the OpenAI LLM (though you can custo
 Second, to implement Data Ingestion Service alike behavior, generate the embeddings of the documents in the `./data` directory:
 
 ```
-python common/generate.py
+python ingest_data.py
 ```
 
 Once the script has been executed, supposedly there should be /storage/food-recipes and /storage/drink-recipes directories and embeddings created
