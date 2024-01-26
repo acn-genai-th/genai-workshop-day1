@@ -43,7 +43,7 @@ class ChatService:
             for m in data.messages
         ]
 
-        # TODO: 4 - Inject and Implement Q&A function, using sub_question_query_engine from get_sub_question_query_engine(),
+        # TODO: 4 - Inject and Implement Q&A function, using sub_question_query_engine from get_sub_question_query_engine()
         # Feel free to comment out or remove existing chat_engine code
         # Recommended to not modify request and response schema, else it has to be reflected on frontend web app too
 
