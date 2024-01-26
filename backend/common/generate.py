@@ -11,9 +11,9 @@ logger = logging.getLogger()
 
 
 def generate_datasource(service_context):
-    # TODO:: Create embeddings from DATA_DIR_FOODS, persist in STORAGE_DIR_FOODS
-    # TODO:: Create embeddings from DATA_DIR_DRINKS, persist in STORAGE_DIR_DRINKS
-    logger.log("Create embeddings..")
+    # TODO: 2.1 - Create embeddings from DATA_DIR_FOODS, persist in STORAGE_DIR_FOODS
+    # TODO: 2.2 - Create embeddings from DATA_DIR_DRINKS, persist in STORAGE_DIR_DRINKS
+    logger.log("Creating embeddings..")
 
 
 if __name__ == "__main__":

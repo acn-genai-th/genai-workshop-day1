@@ -8,7 +8,6 @@ import { coldarkDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import { Button } from "../button";
 import { useCopyToClipboard } from "./use-copy-to-clipboard";
 
-// TODO: Remove this when @type/react-syntax-highlighter is updated
 const SyntaxHighlighter = Prism as unknown as FC<SyntaxHighlighterProps>;
 
 interface Props {
@@ -66,7 +65,7 @@ const CodeBlock: FC<Props> = memo(({ language, value }) => {
     const fileExtension = programmingLanguages[language] || ".file";
     const suggestedFileName = `file-${generateRandomString(
       3,
-      true,
+      true
     )}${fileExtension}`;
     const fileName = window.prompt("Enter file name" || "", suggestedFileName);
 

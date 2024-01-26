@@ -23,3 +23,9 @@ def get_chat_engine():
     index = load_index_from_storage(storage_context, service_context=service_context)
     logger.info(f"Finished loading index from {STORAGE_DIR}")
     return index.as_chat_engine()
+
+
+def get_sub_question_query_engine():
+    # TODO: 3 - Check if storage already exists, load the existing index that's created from Checkpoint 1
+    # Two separate VectorStoreIndex should be created from food-recipes and drink-recipes respectively
+    logger.info("Loading multiple indices..")
