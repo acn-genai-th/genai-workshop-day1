@@ -36,5 +36,6 @@ class ChatService:
         # Recommended to not modify request and response schema, else it has to be reflected on frontend web app too
 
         # query query engine
+        response = query_engine.query(last_message.content)
 
         return response

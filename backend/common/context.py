@@ -3,7 +3,7 @@ from llama_index.llms import AzureOpenAI
 from llama_index.embeddings import AzureOpenAIEmbedding
 
 # TODO: 1 - Replace with provided api key
-api_key = "TO_BE_REPLACED"
+api_key = "3a5929c9e6ee4f769b11b62f1c037e8b"
 azure_endpoint = "https://southindia.api.cognitive.microsoft.com/"
 api_version = "2023-07-01-preview"
 
