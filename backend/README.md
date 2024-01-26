@@ -12,11 +12,10 @@ poetry shell
 
 By default, the bootstrapped repository use the OpenAI LLM (though you can customize, see `app/context.py`). In this hands on session, we gonna adopt AzureOpenAI, configurations are provided now, and the key will be destroyed after the workshop.
 
-
 Second, to implement Data Ingestion Service alike behavior, generate the embeddings of the documents in the `./data` directory:
 
 ```
-python app/engine/generate.py
+python common/generate.py
 ```
 
 Once the script has been executed, supposedly there should be /storage/food-recipes and /storage/drink-recipes directories and embeddings created
